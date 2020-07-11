@@ -3,11 +3,36 @@
   <head>
     <meta charset="utf-8">
     <title>Bingo</title>
+    <link rel="stylesheet" type="text/css" href="bingo.css">
     <script src="bingo.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Asap" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   </head>
-  <body onload="makeCards(4)">
-
+  <body onload="init()">
+    <div class="mainDivs">
+      <div class="mainDivEle">
+        <h2>Current Number:</h2>
+        <span id="bingoBall">
+          <p id="currentNumber">64</p>
+        </span>
+      </div>
+      <div class="mainDivEle">
+        <div class="row">
+          <div id="cardHolder0">
+          </div>
+          <div id="cardHolder1">
+          </div>
+        </div>
+        <div class="row">
+          <div id="cardHolder2">
+          </div>
+          <div id="cardHolder3">
+          </div>
+        </div>
+        <button id="bingo">Bingo</button>
+      </div>
+      <div class="mainDivEle" id="pastBalls">
+      </div>
+    </div>
   </body>
 </html>

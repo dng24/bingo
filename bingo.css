@@ -1,0 +1,93 @@
+html, body {
+  margin: 0;
+  font-family: 'Asap', sans-serif;
+  user-select: none;
+}
+
+.mainDivs {
+  display: flex;
+  flex: 33%;
+}
+
+.mainDivEle {
+  margin: 10px;
+}
+
+#bingoBall {
+  width: 100%;
+  background-color: lightgreen;
+  border-radius: 50%;
+  display: inline-block;
+
+}
+
+#currentNumber {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 33%;
+  margin-bottom: 33%;
+}
+
+.row {
+  display: flex;
+  flex: 50%;
+}
+
+table {
+  margin: 5px;
+  border-collapse: collapse;
+}
+
+td, th {
+  font-size: 1.5em;
+  text-align: center;
+  border: 1px solid black;
+}
+
+th {
+  background-color: lightgrey;
+}
+
+td {
+  background-color: #03e3fc;
+  width: 2em;
+  height: 2em;
+  cursor: default;
+}
+
+td:hover {
+  background-color: #00cae0;
+}
+
+button {
+  font-size: 1.2em;
+  color: black;
+  width: 100%;
+  height: 60px;
+  background: white;
+  border: 2px solid red;
+  transition: background 0.5s ease-in-out;
+  -webkit-transition: background 0.5s ease-in-out;
+}
+
+button:hover {
+  color: white;
+  background: red;
+  cursor: pointer;
+}
+
+button:active {
+  color: white;
+  background: darkred;
+  transition: background 0s ease-in-out;
+  -webkit-transition: background 0s ease-in-out;
+}
+
+.pastBallCell {
+  background-color: white;
+  font-size: 1.1em;
+}
+
+.pastBallCell:hover {
+  background-color: white;
+}
