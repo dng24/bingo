@@ -15,17 +15,13 @@ html, body {
 
 #bingoBall {
   width: 100%;
-  background-color: lightgreen;
-  border-radius: 50%;
   display: inline-block;
-
-}
-
-#currentNumber {
   text-align: center;
   font-size: 3em;
-  margin-top: 33%;
-  margin-bottom: 33%;
+  padding-top: 33%;
+  padding-bottom: 33%;
+  background-color: white;
+  border-radius: 50%;
 }
 
 .row {
